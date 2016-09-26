@@ -12,9 +12,11 @@ export default React.createClass({
       <div>
         <Header text="🐈😎 Trevor is cool 😎🐈" />
         <About text="😺 Here is some cool Ocelot thing 😺" />
-        <Video clip="https://www.youtube.com/embed/iUHnNzhwmdc?autoplay=1" />
-        <Gif gif="https://media.giphy.com/media/b3oqL9WtYUh5C/giphy.gif"/>
-        <Song song="https://www.youtube.com/embed/VYJARyE4QZE?autoplay=1" />
+        <div className="ocelot">
+          <Video clip="https://www.youtube.com/embed/iUHnNzhwmdc?autoplay=1" />
+          <Song song="https://www.youtube.com/embed/VYJARyE4QZE?autoplay=1" />
+          <Gif gif="https://media.giphy.com/media/b3oqL9WtYUh5C/giphy.gif"/>
+        </div>
       </div>
     )
   }
